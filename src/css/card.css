@@ -1,0 +1,95 @@
+.card{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    border-radius: 15px;
+    display: none;
+}
+
+.card .card-top{
+    padding: 30px 40px 0px 40px;
+    background-color: #616161;
+}
+
+.card .card-name{
+    margin-bottom: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card .type{
+    font-size: 12px;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    text-transform: uppercase;
+}
+
+.card .card-img{
+    width: 350px;
+    height: 350px;
+}
+
+.card img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.card .card-info{
+    background-color: #5A5A5A;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 30px 50px 30px;
+    margin-top: -70px;
+    color: #FFFFFF;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card .card-info h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.card .card-info .stats{
+    padding: 0px 10px 0px 10px;
+    width: 180px;
+}
+
+.card .card-info .moves{
+    padding: 0px 10px 0px 10px;
+    width: 180px;
+}
+
+.card .card-info ul li{
+    border-bottom: 1px solid #616161;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.card.open{
+    display: block;
+}
+
+.grass{
+    background-color: #9BCC50;
+}
+
+.poison{
+    background-color: #B97FC9;
+}
+
+.fire{
+    background-color: #FD7D24;
+}
+
+.flying{
+    background-color: #BDB9B8;
+}
+
+.water{
+    background-color: #4592C4;
+}

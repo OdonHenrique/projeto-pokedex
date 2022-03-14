@@ -1,0 +1,54 @@
+@media (max-width: 800px){
+    body {
+        font-size: 12px;
+    }
+
+    .pokedex{
+        flex-direction: column;
+        padding: 30px 0px 30px 0px;
+    }
+
+    .card{
+        max-width: 300px;
+    }
+
+    .card .type{
+        font-size: 8px;
+        padding: 2.5px 5px;
+    }
+    
+    .card .card-img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .card .card-info{
+        padding: 60px 10px 30px 10px;
+        margin-top: -50px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+    }
+
+    .card .card-info h3{
+        font-size: 16px;
+    }
+
+    .list{
+        max-width: 300px;
+    }
+
+    .list ul{
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .list .pokemon{
+        border-radius: 50px;
+    }
+
+    .list .pokemon span{
+        font-size: 15px;
+    }
+}
