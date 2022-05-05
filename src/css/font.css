@@ -1,0 +1,85 @@
+/* buffalo */
+@font-face{
+  font-family: Buffalo ;
+  src: url(../font/buffalo/Buffalo-Regular.otf);
+}
+
+/* frunch */
+@font-face{
+  font-family: Frunch ;
+  src: url(../font/frunch/Frunch.otf);
+}
+
+/* leah gaviota */
+@font-face{
+  font-family: Leah Gaviota Bold ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Bold.otf);
+}
+@font-face{
+  font-family: Leah Gaviota Decorative ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Decorative.otf);
+}
+@font-face{
+  font-family: Leah Gaviota Double ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Double.otf);
+}
+@font-face{
+  font-family: Leah Gaviota Outline ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Outline.otf);
+}
+@font-face{
+  font-family: Leah Gaviota Script ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Script.otf);
+}
+@font-face{
+  font-family: Leah Gaviota Thin ;
+  src: url(../font/leah_gaviota/Leah\ Gaviota\ Thin.otf);
+}
+
+/* paladise */
+@font-face{
+  font-family: Paladise Bonus ;
+  src: url(../font/paladise/Paladise\ \ Bonus.otf);
+}
+@font-face{
+  font-family: Paladise ;
+  src: url(../font/paladise/Paladise\ Script.otf);
+}
+
+/* pathout */
+@font-face{
+  font-family: Pathout Bold ;
+  src: url(../font/pathout/Pathout\ Bold.otf);
+}
+@font-face{
+  font-family: Pathout Italic ;
+  src: url(../font/pathout/Pathout\ Italic.otf);
+}
+
+/* prox */
+@font-face{
+  font-family: Prox Bold Italic ;
+  src: url(../font/prox/Prox-Bold\ Italic.otf);
+}
+@font-face{
+  font-family: Prox Bold ;
+  src: url(../font/prox/Prox-Bold.otf);
+}
+@font-face{
+  font-family: Prox Italic ;
+  src: url(../font/prox/Prox-Italic.otf);
+}
+@font-face{
+  font-family: Prox ;
+  src: url(../font/prox/Prox-Regular.otf);
+}
+
+/* sunn line */
+@font-face{
+  font-family: Sunn ;
+  src: url(../font/sunn/SUNN-Line-Regular.otf);
+}
+@font-face{
+  font-family: Sunn Bold ;
+  src: url(../font/sunn/SUNN-Line-Bold.otf);
+}
