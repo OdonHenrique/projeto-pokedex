@@ -1,18 +1,9 @@
 *{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-img{
-  width: 100%;
-  height: auto;
-}
-
-a{
-  text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
 
 ul{
-  list-style: none;
+    list-style-type: none;
 }
