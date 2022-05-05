@@ -1,407 +1,308 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
-    <link rel="shortcut icon" href="src/imagens/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/global.css">
-    <link rel="stylesheet" href="src/css/card.css">
-    <link rel="stylesheet" href="src/css/list.css">
-    <link rel="stylesheet" href="src/css/responsive.css">
+<html lang="pt_BR" class="sr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LAP Espanhol</title>
+    <link
+      rel="shortcut icon"
+      href="src/assets/img/espanha.png"
+      type="image/x-icon"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-<body>
+    <!-- Reset -->
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="src/assets/fonts/style.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Swiper-->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  </head>
+  <body>
+    <header id="header" class="scroll">
+      <nav class="container">
+        <a href="#" class="logo"><span>LAP </span>Espanhol</a>
+        <div class="menu">
+          <ul class="grid">
+            <li><a class="title" href="#home">Início</a></li>
+            <li><a class="title" href="#about">Sobre</a></li>
+            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#testimonials">Depoimentos</a></li>
+            <li><a class="title" href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        <div class="toggle icon-menu-burger"></div>
+        <div class="toggle icon-x"></div>
+      </nav>
+    </header>
+
     <main>
-        <div class="pokedex">
-            <div class="cards">
-                <div class="card open" id="card-Bulbasaur"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Bulbasaur</h2>
-                            <span>#001</span>
-                        </div>
-                        <span class="type grass">Grass</span>
-                        <span class="type poison">Poison</span>
-                        <div class="card-img">
-                            <img src="src/imagens/001.png" alt="Bulbasaur">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 45</li>
-                                <li>Attack: 49</li>
-                                <li>Defense: 49</li>
-                                <li>Sp. Atk: 65</li>
-                                <li>Sp. Def: 65</li>
-                                <li>Speed: 45</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Leech Seed</li>
-                                <li>Razor Leaf</li>
-                                <li>Poison Powder</li>
-                                <li>Sleep Powder</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <!-- HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://media.istockphoto.com/photos/two-women-covering-themselves-with-spanish-flag-on-meadow-picture-id1320378194?b=1&k=20&m=1320378194&s=170667a&w=0&h=JnnAZRtt5fAxkaktiOROdTkyFCP4XwUunnJj6LHeE4o="
+              alt="spain flag"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">O MELHOR método da região</h2>
+            <p>Destrave o espanhol para você ou para os seus funcionários!</p>
 
-                <div class="card" id="card-Ivysaur"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Ivysaur</h2>
-                            <span>#002</span>
-                        </div>
-                        <span class="type grass">Grass</span>
-                        <span class="type poison">Poison</span>
-                        <div class="card-img">
-                            <img src="src/imagens/002.png" alt="Ivysaur">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 60</li>
-                                <li>Attack: 62</li>
-                                <li>Defense: 63</li>
-                                <li>Sp. Atk: 80</li>
-                                <li>Sp. Def: 80</li>
-                                <li>Speed: 60</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Sleep Powder</li>
-                                <li>Seed Bomb</li>
-                                <li>Take Down</li>
-                                <li>Sweet Scent</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+            <a href="#contact" class="button">Entrar em contato</a>
+          </div>
+        </div>
+      </section>
 
-                <div class="card" id="card-Venusaur"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Venusaur</h2>
-                            <span>#003</span>
-                        </div>
-                        <span class="type grass">Grass</span>
-                        <span class="type poison">Poison</span>
-                        <div class="card-img">
-                            <img src="src/imagens/003.png" alt="Venusaur">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 80</li>
-                                <li>Attack: 82</li>
-                                <li>Defense: 83</li>
-                                <li>Sp. Atk: 100</li>
-                                <li>Sp. Def: 100</li>
-                                <li>Speed: 80</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Synthesis</li>
-                                <li>Worry Seed</li>
-                                <li>Double-Edge</li>
-                                <li>Solar Beam</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="divider-1"></div>
+      <!-- ABOUT -->
+      <section class="section" id="about">
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="src/assets/img/WhatsApp Image 2022-04-30 at 12.35.08.jpeg"
+              alt="Spanish Teacher"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+              vitae iste repudiandae modi totam illo excepturi cum consequuntur
+              dolore deserunt ab eius, ut ex enim reprehenderit odio similique
+              doloribus delectus!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro
+              voluptatibus dolores autem, nam ratione quo beatae delectus nisi
+              atque aut repellat? Voluptatem commodi adipisci perferendis
+              numquam provident placeat quidem at!
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos quae
+              officia dignissimos necessitatibus ipsam quod sapiente. Cum quos
+              dolores delectus dignissimos commodi distinctio soluta
+              perspiciatis, consectetur saepe optio sed praesentium.
+            </p>
+          </div>
+        </div>
+      </section>
 
-                <div class="card" id="card-Charmander"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Charmander</h2>
-                            <span>#004</span>
-                        </div>
-                        <span class="type fire">Fire</span>
-                        <div class="card-img">
-                            <img src="src/imagens/004.png" alt="Charmander">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 39</li>
-                                <li>Attack: 52</li>
-                                <li>Defense: 43</li>
-                                <li>Sp. Atk: 60</li>
-                                <li>Sp. Def: 50</li>
-                                <li>Speed: 65</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Scratch</li>
-                                <li>Ember</li>
-                                <li>Smokescreen</li>
-                                <li>Dragon Breath</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="divider-2"></div>
 
-                <div class="card" id="card-Charmeleon"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Charmeleon</h2>
-                            <span>#005</span>
-                        </div>
-                        <span class="type fire">Fire</span>
-                        <div class="card-img">
-                            <img src="src/imagens/005.png" alt="Charmeleon">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 58</li>
-                                <li>Attack: 64</li>
-                                <li>Defense: 58</li>
-                                <li>Sp. Atk: 80</li>
-                                <li>Sp. Def: 65</li>
-                                <li>Speed: 80</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Dragon Breath</li>
-                                <li>Fire Fang</li>
-                                <li>Slash</li>
-                                <li>Flamethrower</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <!-- SERVICES -->
+      <section class="section" id="services">
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p class="subtitle">
+              <strong>LAP Espanhol</strong> é...., sit amet consectetur
+              adipisicing elit. Voluptatibus ipsam ea aperiam et nostrum
+              voluptate ratione, voluptas consequatur non cupiditate esse,
+              expedita accusamus praesentium tempora eveniet voluptates. Soluta,
+              veniam cum?
+            </p>
+          </header>
 
-                <div class="card" id="card-Charizard"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Charizard</h2>
-                            <span>#006</span>
-                        </div>
-                        <span class="type fire">Fire</span>
-                        <span class="type flying">Flying</span>
-                        <div class="card-img">
-                            <img src="src/imagens/006.png" alt="Charizard">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 78</li>
-                                <li>Attack: 84</li>
-                                <li>Defense: 78</li>
-                                <li>Sp. Atk: 109</li>
-                                <li>Sp. Def: 85</li>
-                                <li>Speed: 100</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Scary Face</li>
-                                <li>Fire Spin</li>
-                                <li>Inferno</li>
-                                <li>Flare Blitz</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-user"></i>
+              <h3 class="title">Aulas particulares</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi,
+                earum harum. Natus veritatis quo quod ipsam cupiditate?
+                Accusantium in commodi eveniet sint optio, quaerat, nostrum
+                tenetur laudantium, quam placeat rerum?
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-users"></i>
+              <h3 class="title">Aulas para empresas</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Praesentium amet error eligendi, minus delectus ex magnam. Amet
+                debitis odio culpa dolores nam, tempore hic, sed obcaecati ad
+                perspiciatis consequuntur praesentium.
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-globe"></i>
+              <h3 class="title">Traduções</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+                exercitationem magnam iusto assumenda hic, velit commodi. Non
+                vitae nostrum iusto tempora distinctio asperiores officia iure
+                aspernatur? Obcaecati unde quam dolorem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="card" id="card-Squirtle"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Squirtle</h2>
-                            <span>#007</span>
-                        </div>
-                        <span class="type water">Water</span>
-                        <div class="card-img">
-                            <img src="src/imagens/007.png" alt="Squirtle">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 44</li>
-                                <li>Attack: 48</li>
-                                <li>Defense: 65</li>
-                                <li>Sp. Atk: 50</li>
-                                <li>Sp. Def: 64</li>
-                                <li>Speed: 43</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Withdraw</li>
-                                <li>Rapid Spin</li>
-                                <li>Bite</li>
-                                <li>Water Pulse</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <div class="divider-1"></div>
 
-                <div class="card" id="card-Wartortle"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Wartortle</h2>
-                            <span>#008</span>
-                        </div>
-                        <span class="type water">Water</span>
-                        <div class="card-img">
-                            <img src="src/imagens/008.png" alt="Wartortle">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 59</li>
-                                <li>Attack: 63</li>
-                                <li>Defense: 80</li>
-                                <li>Sp. Atk: 65</li>
-                                <li>Sp. Def: 80</li>
-                                <li>Speed: 58</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Protect</li>
-                                <li>Rain Dance</li>
-                                <li>Aqua Tail</li>
-                                <li>Shell Smash</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
+      <!-- TESTIMONIALS -->
+      <section class="section" id="testimonials">
+        <div class="container">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper">
+            <div class="swiper-wrapper">
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempore cumque sed laudantium optio.
+                    Possimus error saepe harum? Nulla magnam enim, animi culpa
+                    corrupti optio vel rem numquam quasi, consectetur repellat?
+                  </p>
+                  <cite>
+                    <img
+                      src="src/assets/img/45.jpg"
+                      alt="Foto de Wanessa Souza"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
 
-                <div class="card" id="card-Blastoise"> <!--OK-->
-                    <div class="card-top">
-                        <div class="card-name">
-                            <h2 class="name">Blastoise</h2>
-                            <span>#009</span>
-                        </div>
-                        <span class="type water">Water</span>
-                        <div class="card-img">
-                            <img src="src/imagens/009.png" alt="Blastoise">
-                        </div>
-                    </div>
-    
-                    <div class="card-info">
-                        <div class="stats">
-                            <h3>Base stats</h3>
-                            <ul>
-                                <li>HP: 79</li>
-                                <li>Attack: 83</li>
-                                <li>Defense: 100</li>
-                                <li>Sp. Atk: 85</li>
-                                <li>Sp. Def: 105</li>
-                                <li>Speed: 78</li>
-                            </ul>
-                        </div>
-                        <div class="moves">
-                            <h3>Last moves</h3>
-                            <ul>
-                                <li>Shell Smash</li>
-                                <li>Iron Defense</li>
-                                <li>Hydro Pump</li>
-                                <li>Skull Bash</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempore cumque sed laudantium optio.
+                    Possimus error saepe harum? Nulla magnam enim, animi culpa
+                    corrupti optio vel rem numquam quasi, consectetur repellat?
+                  </p>
+                  <cite>
+                    <img
+                      src="src/assets/img/90.jpg"
+                      alt="Foto de Amanda Lins"
+                    />
+                    Amanda Lins
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonial swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Tempore cumque sed laudantium optio.
+                    Possimus error saepe harum? Nulla magnam enim, animi culpa
+                    corrupti optio vel rem numquam quasi, consectetur repellat?
+                  </p>
+                  <cite>
+                    <img
+                      src="src/assets/img/17.jpg"
+                      alt="Foto de Alicia Pacheco"
+                    />
+                    Alicia Pacheco
+                  </cite>
+                </blockquote>
+              </div>
             </div>
 
-            <nav class="list">
-                <ul>
-                    <li class="pokemon select" id="Bulbasaur">
-                        <img src="src/imagens/001 (1).png" alt="Bulbasaur">
-                        <span>#001</span>
-                        <span>Bulbasaur</span>
-                    </li>
-                    <li class="pokemon" id="Ivysaur">
-                        <img src="src/imagens/002 (1).png" alt="Ivysaur">
-                        <span>#002</span>
-                        <span>Ivysaur</span>
-                    </li>
-                    <li class="pokemon" id="Venusaur">
-                        <img src="src/imagens/003 (1).png" alt="Venusaur">
-                        <span>#003</span>
-                        <span>Venusaur</span>
-                    </li>
-                    <li class="pokemon" id="Charmander">
-                        <img src="src/imagens/004 (1).png" alt="Charmander">
-                        <span>#004</span>
-                        <span>Charmander</span>
-                    </li>
-                    <li class="pokemon" id="Charmeleon">
-                        <img src="src/imagens/005 (1).png" alt="Charmeleon">
-                        <span>#005</span>
-                        <span>Charmeleon</span>
-                    </li>
-                    <li class="pokemon" id="Charizard">
-                        <img src="src/imagens/006 (1).png" alt="Charizard">
-                        <span>#006</span>
-                        <span>Charizard</span>
-                    </li>
-                    <li class="pokemon" id="Squirtle"> 
-                        <img src="src/imagens/007 (1).png" alt="Squirtle">
-                        <span>#007</span>
-                        <span>Squirtle</span>
-                    </li>
-                    <li class="pokemon" id="Wartortle">
-                        <img src="src/imagens/008 (1).png" alt="Wartortle">
-                        <span>#008</span>
-                        <span>Wartortle</span>
-                    </li>
-                    <li class="pokemon" id="Blastoise">
-                        <img src="src/imagens/009 (1).png" alt="Blastoise">
-                        <span>#009</span>
-                        <span>Blastoise</span>
-                    </li>
-                </ul>
-            </nav>
+            <div class="swiper-pagination"></div>
+          </div>
         </div>
+      </section>
+
+      <div class="divider-2"></div>
+
+      <!-- CONTACT -->
+      <section class="section" id="contact">
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a LAP Espanhol, queremos tirar suas dúvidas,
+              ouvir suas criticas e sujestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5582999999999&text=Ola! Gostaria de mais informações"
+              class="button"
+              target="_blank"
+              ><i class="icon-message-square"></i> Entrar em contato</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i> 82 99999-9999</li>
+              <li>
+                <i class="icon-mail"></i
+                ><a
+                  href="mailto:linspachecoanapatricia@yahoo.com.br"
+                  target="_blank"
+                  >linspachecoanapatricia@yahoo.com.br</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider-1"></div>
+
+      <br />
     </main>
 
+    <footer class="section">
+      <div class="container grid">
+        <div class="brand">
+          <a href="#home" class="logo logo-alt"><span>LAP </span>Espanhol</a>
+          <p>2021 LAP Espanhol</p>
+          <p>Todos os direitos reservados.</p>
+        </div>
+
+        <div class="social">
+          <a href="https://www.instagram.com/anapatricialinspa/" target="_blank"
+            ><i class="icon-instagram"></i
+          ></a>
+          <a
+            href="https://www.facebook.com/anapatricia.pacheco1"
+            target="_blank"
+            ><i class="icon-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="icon-arrow-up"></i></a>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script src="src/js/index.js"></script>
-</body>
+  </body>
 </html>
